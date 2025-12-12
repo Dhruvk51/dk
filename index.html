@@ -1,0 +1,272 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KD.in</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Top announcement bar -->
+  <div class="bar">
+    <p>New Drop: “Midnight Kd” — Free shipping on orders over ₹1999</p>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="header">
+    <a href="#" class="logo" aria-label="KD Home">
+      <span class="monogram">KD</span>
+      <!-- <span class="wordmark"></span> -->
+      <h3>KUNDAN & DHRUV</h3>
+    </a>
+
+     <!--  <nav class="nav">
+      <a href="#collections">Collections</a>
+      <a href="#about">About</a>
+      <a href="#lookbook">Lookbook</a>
+      <a href="#contact">Contact</a>
+      </nav> -->
+
+    <!-- Mobile menu (CSS-only toggle) -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">
+    <label for="menu-toggle" class="hamburger" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </label>
+
+    <nav class="nav">
+      <a href="#collections" onclick="document.getElementById('menu-toggle').checked=false" >Collections</a>
+      <a href="#about" onclick="document.getElementById('menu-toggle').checked=false" >About</a>
+      <a href="#lookbook" onclick="document.getElementById('menu-toggle').checked=false" >Lookbook</a>
+      <a href="#contact"  onclick="document.getElementById('menu-toggle').checked=false" >Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Timeless craft. Modern edge.</h1>
+      <p>Inspired by the glow of Kundan and the cool of midnight — KD blends heritage with contemporary silhouettes.</p>
+      <div class="hero-actions">
+        <a href="#collections" class="btn btn-primary">Shop Now</a>
+        <a href="#lookbook" class="btn btn-outline">View Lookbook</a>
+      </div>
+    </div>
+    <div class="hero-image" role="img" aria-label="KD hero campaign">
+      <!-- Replace with your hero image -->
+      <img src="Images/kd0.png" alt="KD campaign image" />
+    </div>
+  </section>
+
+  <!-- Collections -->
+  <section id="collections" class="section">
+    <div class="section-head">
+      <h2>Collections</h2>
+      <p>From street-ready fits to luxe occasion wear — discover your KD.</p>
+    </div>
+
+    <div class="grid products">
+      <!-- Product card 1 -->
+      <article class="card">
+        <div class="card-media">
+          <img src="Images/kd1.png" alt="Midnight Kundan Bomber Jacket"/>
+          <span class="tag">New</span>
+        </div>
+        <div class="card-body">
+          <h3>Midnight KD Bomber</h3>
+          <p>Matte midnight shell with gold-thread detailing.</p>
+          <div class="price">₹4,999</div>
+          <a href="#" class="btn btn-block">View Details</a>
+        </div>
+      </article>
+
+      <!-- Product card 2 -->
+      <article class="card">
+        <div class="card-media">
+          <img src="Images/kd2.png" alt="KD Signature Tee">
+          <span class="tag">Best Seller</span>
+        </div>
+        <div class="card-body">
+          <h3>KD Signature Tee</h3>
+          <p>Heavyweight cotton with embossed KD monogram.</p>
+          <div class="price">₹1,499</div>
+          <a href="#" class="btn btn-block">View Details</a>
+        </div>
+      </article>
+
+      <!-- Product card 3 -->
+      <article class="card">
+        <div class="card-media">
+          <img src="Images/kd3.png" alt="Kundan Glow Dress">
+        </div>
+        <div class="card-body">
+          <h3>KD Glow Dress</h3>
+          <p>Satin-sheen finish with subtle gold accents.</p>
+          <div class="price">₹3,799</div>
+          <a href="#" class="btn btn-block">View Details</a>
+        </div>
+      </article>
+
+      <!-- Product card 4 -->
+      <article class="card">
+        <div class="card-media">
+          <img src="Images/kd4.png" alt="Dhruv Blue Hoodie">
+        </div>
+        <div class="card-body">
+          <h3>KD Blue Hoodie</h3>
+          <p>Deep blue fleece; comfort with a sharp silhouette.</p>
+          <div class="price">₹2,299</div>
+          <a href="#" class="btn btn-block">View Details</a>
+        </div>
+      </article>
+    </div>
+
+    <!-- Collection CTA banner -->
+    <div class="banner">
+      <div class="banner-content">
+        <h3>Limited Release: “Aurora” Capsule</h3>
+        <p>Subtle gradients. Bold lines. Drop closes Sunday.</p>
+      </div>
+      <a href="#" class="btn btn-light">Explore Capsule</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section section-split">
+    <div class="split-media">
+      <img src="Images/kd11.png" alt="Atelier detail with gold thread">
+    </div>
+    <div class="split-content">
+      <h2>About KD</h2>
+      <p>KD stands for Kundan & Dhruv — two energies in balance. We merge classic craftsmanship with a modern, urban language.</p>
+      <p>Every piece is designed in India and made for movement, with premium fabrics, tailored fits, and signature KD monograms.</p>
+      <div class="features">
+        <div class="feature">
+          <div class="icon">✦</div>
+          <div>
+            <h4>Craft-first</h4>
+            <p>Gold-inspired detailing, clean construction, timeless forms.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="icon">◎</div>
+          <div>
+            <h4>Responsible</h4>
+            <p>Small-batch drops and fabric-forward sourcing.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="icon">∞</div>
+          <div>
+            <h4>Versatile</h4>
+            <p>Pieces that carry from day to night without compromise.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lookbook -->
+  <section id="lookbook" class="section">
+    <div class="section-head">
+      <h2>Lookbook</h2>
+      <p>Styled by KD — mix, layer, and own your silhouette.</p>
+    </div>
+
+    <div class="masonry">
+      <img src="Images/kd5.png" alt="Street look in KD jacket">
+      <img src="Images/kd10.png" alt="Runway-inspired street style">
+      <img src="Images/kd6.png" alt="Minimal fit with KD tee">
+      <img src="Images/kd14.png" alt="Evening wear in Kundan accents">
+      <img src="Images/kd12.png" alt="Layered hoodie and trousers">
+      <img src="Images/kd13.png" alt="Monochrome with statement accessories">
+      
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+    <div class="newsletter-content">
+      <h3>Stay in the KD loop</h3>
+      <p>Be first to know about drops, events, and collabs.</p>
+      <form class="form" action="#" method="post" onsubmit="return false">
+        <label for="email">Email address</label>
+        <input type="email" id="email" placeholder="your@gmail.com" required />
+        <button class="btn btn-primary" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <div class="section-head">
+      <h2>Contact</h2>
+      <p>For retail, collaborations, or press — let’s talk.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="card contact-card">
+        <h3>Retail & Orders</h3>
+        <p>Have questions about sizes, restocks, or custom fits?</p>
+        <a href="mailto:orders@kdbrand.in" class="btn btn-outline">orders@kdbrand.in</a>
+      </div>
+      <div class="card contact-card">
+        <h3>Collabs & PR</h3>
+        <p>Media features, partnerships, and event requests.</p>
+        <a href="mailto:press@kdbrand.in" class="btn btn-outline">press@kdbrand.in</a>
+      </div>
+      <div class="card contact-card">
+        <h3>Showroom</h3>
+        <p>Ajmer station road, shop no.3b near canara bank.</p>
+        <a href="#" class="btn btn-outline">Book a visit</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-col">
+        <div class="logo footer-logo">
+          <span class="monogram">KD</span>
+          <span class="wordmark">Kundan & Dhruv</span>
+        </div>
+        <p>Heritage meets edge. Designed in India.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="#collections">All Collections</a></li>
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Care Guide</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <ul class="socials">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Pinterest</a></li>
+          <li><a href="#">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 KD — Kundan & Dhruv</p>
+      <p><a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </div>
+  </footer>
+</body>
+</html>
